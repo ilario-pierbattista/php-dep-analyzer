@@ -12,3 +12,6 @@ cs-check:
 
 phpstan:
 	vendor/bin/phpstan
+
+report-build:
+	cd web && npm run build
