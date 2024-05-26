@@ -14,5 +14,6 @@ interface SymbolInterface extends Indexable
      * @return string[]
      */
     public function getDependencies(): array;
+
     public function addDependency(string $name): void;
 }

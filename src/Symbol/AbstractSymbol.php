@@ -18,7 +18,7 @@ abstract class AbstractSymbol implements SymbolInterface, \JsonSerializable
 
     public function addDependency(string $name): void
     {
-        if (!in_array($name, $this->dependencies, true)) {
+        if (! in_array($name, $this->dependencies, true)) {
             $this->dependencies[] = $name;
         }
     }

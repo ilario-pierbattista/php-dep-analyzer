@@ -16,6 +16,7 @@ class SymbolVistor extends NodeVisitorAbstract
 {
     /** @var SymbolInterface[] */
     private array $symbols = [];
+
     private ?SymbolInterface $currentParentSymbol = null;
 
     public function enterNode(Node $node)
@@ -36,7 +37,6 @@ class SymbolVistor extends NodeVisitorAbstract
     private function baseNodeVisiter(Node $node)
     {
         if ($node instanceof Node\Stmt\Class_) {
-
             $traits = [];
             foreach ($node->getTraitUses() as $traitUse) {
                 $traits = array_merge(
