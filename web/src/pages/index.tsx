@@ -2,11 +2,12 @@ import React, {useEffect, useState} from "react";
 import { Alert, Button } from "react-bootstrap";
 
 export function Index() {
-    const [data, setData] = useState([])
+    const [data, setData] = useState<unknown>([])
 
     const getData = () => {
-        fetch('file:///home/ilario/Projects/utils/php-dep-analysis/output/data.json')
-            .then(r => r.json())
+        const data = require('./../data.json')
+        setData(data)
+        console.log(data)
     }
 
     useEffect(() => {

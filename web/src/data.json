@@ -1,0 +1,1170 @@
+{
+    "nodes": [
+        {
+            "id": "Facile\\PhpCodec\\Decoders",
+            "name": "Facile\\PhpCodec\\Decoders"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Decoder",
+            "name": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\NullDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\NullDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\MixedDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\MixedDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Undefined",
+            "name": "Facile\\PhpCodec\\Internal\\Undefined"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "name": "Facile\\PhpCodec\\Internal\\nameFromProps"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Combinators\\ComposeDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Combinators\\ComposeDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Combinators\\PipeCodec",
+            "name": "Facile\\PhpCodec\\Internal\\Combinators\\PipeCodec"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Combinators\\MapDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Combinators\\MapDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\IdentityEncoder",
+            "name": "Facile\\PhpCodec\\Internal\\IdentityEncoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Encode",
+            "name": "Facile\\PhpCodec\\Internal\\Encode"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "name": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Reporter",
+            "name": "Facile\\PhpCodec\\Reporter"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Codecs",
+            "name": "Facile\\PhpCodec\\Codecs"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Encoder",
+            "name": "Facile\\PhpCodec\\Encoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\identity",
+            "name": "Facile\\PhpCodec\\identity"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Validation\\Context",
+            "name": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Validation\\Validation",
+            "name": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Validation\\VError",
+            "name": "Facile\\PhpCodec\\Validation\\VError"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Validation\\ValidationFailures",
+            "name": "Facile\\PhpCodec\\Validation\\ValidationFailures"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Validation\\ListOfValidation",
+            "name": "Facile\\PhpCodec\\Validation\\ListOfValidation"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Validation\\ValidationSuccess",
+            "name": "Facile\\PhpCodec\\Validation\\ValidationSuccess"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Validation\\ContextEntry",
+            "name": "Facile\\PhpCodec\\Validation\\ContextEntry"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Codec",
+            "name": "Facile\\PhpCodec\\Codec"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Reporters",
+            "name": "Facile\\PhpCodec\\Reporters"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Utils\\ConcreteCodec",
+            "name": "Facile\\PhpCodec\\Utils\\ConcreteCodec"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Utils\\ConcreteDecoder",
+            "name": "Facile\\PhpCodec\\Utils\\ConcreteDecoder"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Reporters\\SimplePathReporter",
+            "name": "Facile\\PhpCodec\\Reporters\\SimplePathReporter"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "name": "Facile\\PhpCodec\\Reporters\\PathReporter"
+        },
+        {
+            "id": "array_values",
+            "name": "array_values"
+        },
+        {
+            "id": "sprintf",
+            "name": "sprintf"
+        },
+        {
+            "id": "DATE_ATOM",
+            "name": "DATE_ATOM"
+        },
+        {
+            "id": "Facile\\PhpCodec\\Internal\\standardDecode",
+            "name": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "id": "is_callable",
+            "name": "is_callable"
+        },
+        {
+            "id": "is_int",
+            "name": "is_int"
+        },
+        {
+            "id": "is_float",
+            "name": "is_float"
+        },
+        {
+            "id": "is_bool",
+            "name": "is_bool"
+        },
+        {
+            "id": "is_string",
+            "name": "is_string"
+        },
+        {
+            "id": "implode",
+            "name": "implode"
+        },
+        {
+            "id": "array_map",
+            "name": "array_map"
+        },
+        {
+            "id": "array_keys",
+            "name": "array_keys"
+        },
+        {
+            "id": "is_object",
+            "name": "is_object"
+        },
+        {
+            "id": "get_class",
+            "name": "get_class"
+        },
+        {
+            "id": "gettype",
+            "name": "gettype"
+        },
+        {
+            "id": "DateTime",
+            "name": "DateTime"
+        },
+        {
+            "id": "is_numeric",
+            "name": "is_numeric"
+        },
+        {
+            "id": "preg_match",
+            "name": "preg_match"
+        },
+        {
+            "id": "Facile\\PhpCodec\\destructureIn",
+            "name": "Facile\\PhpCodec\\destructureIn"
+        },
+        {
+            "id": "is_array",
+            "name": "is_array"
+        },
+        {
+            "id": "array_merge",
+            "name": "array_merge"
+        },
+        {
+            "id": "stdClass",
+            "name": "stdClass"
+        },
+        {
+            "id": "array_key_exists",
+            "name": "array_key_exists"
+        },
+        {
+            "id": "array_reduce",
+            "name": "array_reduce"
+        },
+        {
+            "id": "function_exists",
+            "name": "function_exists"
+        },
+        {
+            "id": "json_encode",
+            "name": "json_encode"
+        },
+        {
+            "id": "serialize",
+            "name": "serialize"
+        },
+        {
+            "id": "Iterator",
+            "name": "Iterator"
+        },
+        {
+            "id": "LogicException",
+            "name": "LogicException"
+        },
+        {
+            "id": "Facile\\PhpCodec\\strigify",
+            "name": "Facile\\PhpCodec\\strigify"
+        }
+    ],
+    "links": [
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Utils\\ConcreteDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Combinators\\ComposeDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Combinators\\MapDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "array_values"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\NullDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\MixedDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "DATE_ATOM"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoders",
+            "target": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Decoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\NullDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\NullDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\NullDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\NullDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder",
+            "target": "is_callable"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\CallableDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder",
+            "target": "is_int"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\IntDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\MixedDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\MixedDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\MixedDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\MixedDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder",
+            "target": "is_float"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\FloatDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\Undefined"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder",
+            "target": "is_bool"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\BoolDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder",
+            "target": "is_string"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Primitives\\StringDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "implode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "array_map"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "is_string"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "array_keys"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "is_object"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "get_class"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "gettype"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\nameFromProps",
+            "target": "Facile\\PhpCodec\\Validation\\ContextEntry"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "target": "DATE_ATOM"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "target": "is_string"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "target": "DateTime"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\DateTimeFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder",
+            "target": "is_numeric"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\IntFromStringDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "target": "is_string"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "target": "preg_match"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\StringMatchingRegexDecoder",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder",
+            "target": "preg_match"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Useful\\RegexDecoder",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ComposeDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ComposeDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ComposeDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ComposeDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ContextEntry"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ValidationFailures"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ValidationSuccess"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\destructureIn"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ListOfValidation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "is_array"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "array_merge"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\IntersectionDecoder",
+            "target": "stdClass"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ContextEntry"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ValidationFailures"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\UnionDecoder",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder",
+            "target": "is_string"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\LiteralDecoder",
+            "target": "is_bool"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\PipeCodec",
+            "target": "Facile\\PhpCodec\\Codec"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\PipeCodec",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\PipeCodec",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\PipeCodec",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "is_array"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "is_string"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "array_key_exists"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\Undefined"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ContextEntry"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ListOfValidation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\ArrayPropsDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\nameFromProps"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\MapDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\MapDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\MapDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Combinators\\MapDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\IdentityEncoder",
+            "target": "Facile\\PhpCodec\\Encoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Encode",
+            "target": "Facile\\PhpCodec\\identity"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "target": "is_array"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ContextEntry"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\ListOfValidation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Internal\\Arrays\\ListOfDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporter",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "Facile\\PhpCodec\\Codec"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "Facile\\PhpCodec\\Decoders"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "Facile\\PhpCodec\\Internal\\Combinators\\PipeCodec"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "array_reduce"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "Facile\\PhpCodec\\Utils\\ConcreteCodec"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "Facile\\PhpCodec\\Internal\\IdentityEncoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codecs",
+            "target": "Facile\\PhpCodec\\Internal\\Primitives\\UndefinedDecoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\identity",
+            "target": "is_string"
+        },
+        {
+            "source": "Facile\\PhpCodec\\identity",
+            "target": "is_array"
+        },
+        {
+            "source": "Facile\\PhpCodec\\identity",
+            "target": "function_exists"
+        },
+        {
+            "source": "Facile\\PhpCodec\\identity",
+            "target": "json_encode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\identity",
+            "target": "serialize"
+        },
+        {
+            "source": "Facile\\PhpCodec\\identity",
+            "target": "is_bool"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Context",
+            "target": "Iterator"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Context",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Context",
+            "target": "Facile\\PhpCodec\\Validation\\ContextEntry"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Context",
+            "target": "array_merge"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Validation",
+            "target": "Facile\\PhpCodec\\Validation\\ValidationSuccess"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Validation",
+            "target": "Facile\\PhpCodec\\Validation\\ValidationFailures"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Validation",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Validation",
+            "target": "Facile\\PhpCodec\\Validation\\VError"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Validation",
+            "target": "LogicException"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\Validation",
+            "target": "Facile\\PhpCodec\\Validation\\ListOfValidation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\VError",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\ValidationFailures",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\ListOfValidation",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\ListOfValidation",
+            "target": "Facile\\PhpCodec\\Validation\\ValidationSuccess"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\ListOfValidation",
+            "target": "array_merge"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\ValidationSuccess",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Validation\\ContextEntry",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codec",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Codec",
+            "target": "Facile\\PhpCodec\\Encoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters",
+            "target": "Facile\\PhpCodec\\Reporter"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters",
+            "target": "Facile\\PhpCodec\\Reporters\\PathReporter"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters",
+            "target": "Facile\\PhpCodec\\Reporters\\SimplePathReporter"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteCodec",
+            "target": "Facile\\PhpCodec\\Codec"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteCodec",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteCodec",
+            "target": "Facile\\PhpCodec\\Encoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteCodec",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteCodec",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteDecoder",
+            "target": "Facile\\PhpCodec\\Decoder"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteDecoder",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Utils\\ConcreteDecoder",
+            "target": "Facile\\PhpCodec\\Internal\\standardDecode"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\SimplePathReporter",
+            "target": "Facile\\PhpCodec\\Reporter"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\SimplePathReporter",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\SimplePathReporter",
+            "target": "Facile\\PhpCodec\\Validation\\VError"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\SimplePathReporter",
+            "target": "Facile\\PhpCodec\\strigify"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "Facile\\PhpCodec\\Reporter"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "Facile\\PhpCodec\\Validation\\Validation"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "array_map"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "Facile\\PhpCodec\\Validation\\VError"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "sprintf"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "Facile\\PhpCodec\\strigify"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "Facile\\PhpCodec\\Validation\\Context"
+        },
+        {
+            "source": "Facile\\PhpCodec\\Reporters\\PathReporter",
+            "target": "implode"
+        }
+    ]
+}
